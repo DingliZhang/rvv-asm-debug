@@ -1,0 +1,7 @@
+display $v4
+display $v5
+display $v6
+display $v7
+set disassemble-next-line on
+b _start
+target remote : 12345

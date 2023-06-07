@@ -1,9 +1,9 @@
 display $v0
 display $v1
-display $v2
+display/x $v2
 display $v3
-display $vtype
-
+display/x $v4
+display $fcsr
 set disassemble-next-line on
 b _start
 target remote : 12345

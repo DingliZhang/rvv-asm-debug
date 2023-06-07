@@ -1,0 +1,6 @@
+display/t $v0
+display $x10
+
+set disassemble-next-line on
+b _start
+target remote : 12345
